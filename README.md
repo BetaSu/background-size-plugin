@@ -11,9 +11,10 @@ npm i background-size-plugin
 // webpack.config.js
 {
   plugins: [
-    new BackgroundSizePlugin()
+    new BackgroundSizePlugin({
+      publicPath: 'your publicPath'
+    })
   ]
 }
-
 
 ```
